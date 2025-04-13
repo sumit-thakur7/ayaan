@@ -7,10 +7,10 @@ import {
   FaBrain,
   FaUserMd,
   FaSun,
-  FaStomach,
+  FaBed,
   FaFemale,
   FaAllergies,
-  FaSleeping,
+  FaSeedling,
   FaPlus,
   FaArrowRight
 } from 'react-icons/fa';
@@ -90,7 +90,7 @@ const Services = () => {
     },
     {
       id: "digestive-issues",
-      icon: <FaStomach className="text-3xl text-primary-500" />,
+      icon: <FaBed className="text-3xl text-primary-500" />,
       title: "Digestive Disorders",
       description: "Solutions for IBS, acid reflux, chronic constipation, and other gastrointestinal issues."
     },
@@ -108,7 +108,7 @@ const Services = () => {
     },
     {
       id: "sleep-disorders",
-      icon: <FaSleeping className="text-3xl text-primary-500" />,
+      icon: <FaSeedling className="text-3xl text-primary-500" />,
       title: "Sleep Disorders",
       description: "Effective remedies for insomnia, sleep apnea, and other sleep-related issues for restful nights."
     },
